@@ -9,6 +9,10 @@
   "dependencies": {
     "express": "~4.9.x"
   },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:rbevers/em_home.git"
+  },
   "engines": {
     "node": "0.10.x"
   }
