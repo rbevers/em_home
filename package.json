@@ -1,6 +1,6 @@
 {
-  "name": "EM Home",
-  "version": "0.1",
+  "name": "em_home",
+  "version": "0.1.0",
   "description": "A Node.js app to serve up a home page.",
   "main": "index.js",
   "scripts": {
