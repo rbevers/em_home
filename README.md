@@ -1,6 +1,6 @@
 # EM Home
 
-A barebones Node.js app using [Express 4](http://expressjs.com/).  It is used to server up a dummy home page for demonstrating the login function from the EM App, with CORS support.
+A barebones Node.js app using [Express 4](http://expressjs.com/).  It is used to serve up a dummy home page for demonstrating the login function from the EM App, with CORS support.
 
 ## Running Locally
 
