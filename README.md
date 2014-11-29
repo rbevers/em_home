@@ -2,6 +2,8 @@
 
 A barebones Node.js app using [Express 4](http://expressjs.com/).  It is used to serve up a dummy home page for demonstrating the login function from the EM App, with CORS support.
 
+**NOTE: Because of Adobe TypeKit permissions, the site renders with the wrong font.  This was not corrected for the demo.**
+
 ## Running Locally
 
 Make sure you have [Node.js](http://nodejs.org/) and the [Heroku Toolbelt](https://toolbelt.heroku.com/) installed.
