@@ -5,7 +5,8 @@ app.set('port', (process.env.PORT || 5000))
 app.use(express.static(__dirname + '/public'))
 
 app.get('/', function(request, response) {
-  response.sendFile(__dirname + '/public/emyth.html');
+  if (!process.env.APP_URL) process.env.APP_URL = 'http://localhost:3000';
+  response.render('emyth.ejs');
 })
 
 app.listen(app.get('port'), function() {
